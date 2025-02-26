@@ -5,6 +5,7 @@
 
 int xPosition = 5;
 int yPosition = 1;
+int Navn = Emil;
 
 Console.SetCursorPosition(xPosition, yPosition);
 Console.WriteLine("X");
@@ -18,7 +19,11 @@ int IntegerVariabel2 = 5;
 Console.WriteLine(IntegerVariabel1 + IntegerVariabel2);
 
 
+
+
 Console.ReadLine();
+Navn = Console.ReadLine();
+
 
 
 
