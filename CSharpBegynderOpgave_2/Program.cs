@@ -2,27 +2,48 @@
     - Udvid dit visitkort fra sidst ved at gøre brug af Forskellige datatyper, variabler og user input.
     - Se bunden af koden for eksempler
  */
+using System;
 
-int xPosition = 5;
-int yPosition = 1;
-int Navn = Emil;
-
-Console.SetCursorPosition(xPosition, yPosition);
-Console.WriteLine("X");
-
-
-string StrengVariabel = "TestStreng";
-Console.WriteLine(StrengVariabel);
-
-int IntegerVariabel1 = 5;
-int IntegerVariabel2 = 5;
-Console.WriteLine(IntegerVariabel1 + IntegerVariabel2);
+class Program
+{
+    static void Main()
+    {
 
 
 
+        // Dine oprindelige variabler
+        int xPosition = 5;
+        int yPosition = 1;
+        string Navn = "Emil";  // Navnet som vi svarer med
 
-Console.ReadLine();
-Navn = Console.ReadLine();
+        // Sæt cursorpositionen
+        Console.SetCursorPosition(xPosition, yPosition);
+        Console.WriteLine("X");
+
+        // Print den oprindelige strengvariabel
+        string StrengVariabel = "TestStreng";
+        Console.WriteLine(StrengVariabel);
+
+        // Beregn og udskriv summen af to integer variabler
+        int IntegerVariabel1 = 5;
+        int IntegerVariabel2 = 5;
+        Console.WriteLine(IntegerVariabel1 + IntegerVariabel2);
+
+        // Bed brugeren om at skrive noget
+        Console.WriteLine("Skriv noget:");
+
+        // Læs brugerens input
+        string brugerInput = Console.ReadLine();
+
+        // Uanset hvad brugeren skriver, svar med "Emil"
+        Console.WriteLine("Jeg hedder " + Navn);
+
+        Console.ReadLine();  // Vent på at brugeren trykker Enter
+    }
+}
+
+
+
 
 
 
