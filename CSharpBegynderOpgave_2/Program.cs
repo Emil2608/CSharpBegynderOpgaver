@@ -26,7 +26,7 @@ class Program
 
         // Beregn og udskriv summen af to integer variabler
         int IntegerVariabel1 = 5;
-        int IntegerVariabel2 = 5;
+        int IntegerVariabel2 = 2;
         Console.WriteLine(IntegerVariabel1 + IntegerVariabel2);
 
         // Bed brugeren om at skrive noget
