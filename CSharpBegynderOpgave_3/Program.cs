@@ -6,7 +6,7 @@
 
 
 Random random = new Random();
-int Resultat = random.Next(0, 11); //Generere et random tal imellem 0 og 100. (0 er med, men 101 er ikke)
+int Resultat = random.Next(1, 11); //Generere et random tal imellem 0 og 100. (0 er med, men 101 er ikke)
 Console.WriteLine("Gæt tallet fra 1-10");
 int Input = Convert.ToInt32(Console.ReadLine());
 
@@ -22,7 +22,7 @@ if (Input == Resultat)
     Console.WriteLine("Rigtigt");
 }
 else
-    Console.WriteLine("Forkert");
+    Console.WriteLine(Resultat);
 
 
 
