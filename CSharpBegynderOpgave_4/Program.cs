@@ -39,6 +39,7 @@ Random random = new Random();
 int Resultat = random.Next(1, 11); //Generere et random tal imellem 0 og 100. (0 er med, men 101 er ikke)
 
     Console.WriteLine("Gæt tallet fra 1-10. du har 5 forsøg");
+    Console.WriteLine("hvad skal tallene være. skriv  f.eks. 1-10");
 int Input;
 int Counter = 0;
 while (Counter < 5)
