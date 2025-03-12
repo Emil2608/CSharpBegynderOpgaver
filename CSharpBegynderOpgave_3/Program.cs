@@ -5,6 +5,8 @@
 
 
 
+using System.Linq.Expressions;
+
 Random random = new Random();
 int Resultat = random.Next(1, 11); //Generere et random tal imellem 0 og 100. (0 er med, men 101 er ikke)
 Console.WriteLine("Gæt tallet fra 1-10");
@@ -22,8 +24,8 @@ if (Input == Resultat)
     Console.WriteLine("Rigtigt");
 }
 else
-    Console.WriteLine(Resultat);
-
+    Console.WriteLine("Forkert svaret er");
+Console.WriteLine(Resultat);
 
 
 
